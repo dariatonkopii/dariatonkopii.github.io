@@ -1,0 +1,112 @@
+@media screen and (max-width:1200px){
+.box2VN1Per{width:380px;}
+#box2VN1PerNum3, #box2VN1PerNum4{right:7px;}
+#box5Phone{background-size:430px auto;}
+#box5Phone.act{background-position:391px 133px;}
+#txt_welcome, #txt_3, #txt_5, #box5TxtTit, #txt_6{font-size:25px;}
+#txt_2, #txt_4, #box5TxtTxt, #copy, .box3BXInTxt{font-size:15px;}
+#box1{height:567px;}
+#txt_welcome, #txt_3{padding-top:45px;}
+#txt_5{padding-top:1px;}
+#box3BX{padding-top:38px; padding-bottom:38px;}
+.box3BXInTit{font-size:21px;}
+}
+@media screen and (max-width:1100px){
+.box2VN1Per{width:310px;}
+.headBarForm_inp{width:240px;}
+.box2VN1PerTit{font-size:18px;}
+.box2VN1PerTxt{font-size:15px;}
+}
+@media screen and (max-width:1000px){
+.cont{box-sizing:border-box; padding-left:15px; padding-right:15px;}
+#box5Txt{padding-top:164px;}
+#box5Phone{background-size:300px auto;}
+#box5Phone.act{background-position:471px 133px;}
+#box5{height:623px;}
+#headBarLogo{left:-30px;}
+#box2VN1Moby{margin-left:0px;}
+.box2VN1Per{width:480px;}
+#box2VN1PerNum1{top:-32px; right:7px; left:auto;}
+#box2VN1PerNum2{top:119px; right:7px; left:auto;}
+#box2VN1PerNum3{top:270px;}
+#box2VN1PerNum4{top:423px;}
+#box2VN1PerNum1, #box2VN1PerNum2{background-position:left 18px top 38px; padding-left:113px; padding-right:7px;}
+#box2VN1PerNum1 .box2VN1PerTit, #box2VN1PerNum2 .box2VN1PerTit, #box2VN1PerNum1 .box2VN1PerTxt, #box2VN1PerNum2 .box2VN1PerTxt{text-align:left;}
+#box2VN1MobySlide, .box2VN1MobySlideP{width:inherit;}
+#box2VN1Moby{width:440px;}
+#socIco{text-align:right;}
+#box3BX{padding-left:0px; padding-right:0px;}
+}
+@media screen and (max-width:900px){
+#box2VN1Moby{width:320px;}
+#phone{width:250px; background-size:248px auto; height:441px;}
+#phone_logo{left:50px; top:117px;}
+#phone_info{top:61px; left:16px; width:217px; height:384px;}
+#phone_info_txt{padding-top:201px;}
+}
+@media screen and (max-width:899px){
+#headBarLogo{left:-80px;}
+#box2VN1Moby{width:275px;}
+#txt_5{line-height:1.1em;}
+#box5Txt{padding-left:0px; padding-top:134px;}
+#copy{left:15px;}
+#box5{height:520px;}
+#box5Phone.act{background-position:550px 133px;}
+#box5Phone{background-size:150px auto;}
+}
+@media screen and (max-width:799px){
+#headBarLogo{left:0px; margin-left:0px;}
+#txt_welcome, #txt_3, #txt_5, #box5TxtTit, #txt_6{line-height:1.1em;}
+#box5Phone, #box5Phone.act{display:none; background:none;}
+#box5Txt{max-width:none;}
+.box2VN1Per{width:380px;}
+#box2VN1PerNum1{top:-2px;}
+#box2VN1PerNum2{top:120px;}
+#box2VN1PerNum3{top:267px;}
+#box2VN1PerNum4{top:424px;}
+.box2VN1Per{padding-top:11px; padding-bottom:11px;}
+#box2VN1PerNum1, #box2VN1PerNum2, #box2VN1PerNum3, #box2VN1PerNum4{background-position:18px 20px; padding-left:100px;}
+#box1{height:567px;}
+}
+@media screen and (max-width:699px){
+.box2VN1Per{width:285px;}
+#box2VN1PerNum1{top:-12px;}
+#box2VN1PerNum2{top:158px;}
+#box2VN1PerNum3{top:295px;}
+#box2VN1PerNum4{top:431px;}
+#box2VN1PerNum1, #box2VN1PerNum2, #box2VN1PerNum3, #box2VN1PerNum4{background-position:8px 19px; padding-left:65px; background-size:50px auto;}
+#box5Txt{padding-top:84px;}
+}
+@media screen and (max-width:599px){
+#txt_welcome{padding-top:20px;}
+.box2VN1Per{width:41%; position:relative; overflow:hidden; float:right;}
+#box2VN1PerNum1, #box2VN1PerNum2, #box2VN1PerNum3, #box2VN1PerNum4{background:none; padding-left:7px; top:auto; left:auto; right:auto;}
+#box2VN1Moby{float:left;}
+#box2VN1{height:auto; overflow:hidden;}
+.box2VN1PerTit{line-height:1.2em;}
+#box3BX{text-align:center;}
+#box3BX:after{display:none;}
+.box3BXIn{width:47%; padding-bottom:10px;}
+.box3BXIn:nth-child(3){width:70%; padding-bottom:0px; padding-top:25px;}
+#copy, #socIco{position:relative; left:auto; right:auto; bottom:auto; text-align:center; padding-top:40px;}
+#copy{padding-bottom:20px; padding-top:20px;}
+#box1{height:547px;}
+}
+@media screen and (max-width:499px){
+#box2VN1Moby{width:100%; float:none; margin-top:150px;}
+.box2VN1Per{position:absolute; width:100%; opacity:0; transition-duration:0.2s; float:none;}
+#box2VN1PerNum1, #box2VN1PerNum2, #box2VN1PerNum3, #box2VN1PerNum4{top:-115px; left:0px;}
+.box2VN1Per.act{opacity:1;}
+#box2VN1{overflow:visible;}
+.box2VN1PerTit, .box2VN1PerTxt{text-align:center !important;}
+#headBar{display:none !important;}
+}
+@media screen and (max-width:399px){
+body{min-width:320px;}
+.box3BXIn{width:100% !important; padding-top:20px;}
+.box3BXIn:first-child{padding-top:0px;}
+#box5Txt{padding-top:27px;}
+#box5{height:auto;}
+#box5TxtTit, #box5TxtTxt, #box5 .box5FormInp input, #box5 .box5FormInp_send{text-align:center;}
+.socIcoIn{width:35px; height:35px;}
+}

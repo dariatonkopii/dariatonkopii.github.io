@@ -1,0 +1,539 @@
+/*
+all fonts
+font-family:'Conv_AvenirNextLTPro-UltLtCn',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-MediumCn',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-Regular',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-Cn',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-It',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-Bold',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-HeavyCn',Sans-Serif;
+font-family:'Conv_AvenirNextLTPro-DemiCn',Sans-Serif;
+*/
+@font-face{
+font-family:"Avenir Next LT W04 Ultra Light";
+src:url("Fonts/1437416/1c2faa72-b1b1-421e-bc47-43ebd67cc8bd.eot?#iefix");
+src:url("Fonts/1437416/1c2faa72-b1b1-421e-bc47-43ebd67cc8bd.eot?#iefix") format("eot"),url("Fonts/1437416/599179d8-2203-4a9f-b271-010a707271dc.woff2") format("woff2"),url("Fonts/1437416/3b0370cd-39d6-4a24-9c65-60787db0ebe0.woff") format("woff"),url("Fonts/1437416/55f63dc4-546d-4886-95bd-d2360a19f485.ttf") format("truetype");
+}
+@font-face{
+font-family:"Avenir Next LT W04 Regu1437496";
+src:url("Fonts/1437496/483d8937-5e17-4378-9c51-aa91a3d9e1eb.eot?#iefix");
+src:url("Fonts/1437496/483d8937-5e17-4378-9c51-aa91a3d9e1eb.eot?#iefix") format("eot"),url("Fonts/1437496/ed4b9060-b5ab-4379-8840-0b50a15258b7.woff2") format("woff2"),url("Fonts/1437496/9b47db0b-77fb-4bb0-b5c2-3c131a36fc4d.woff") format("woff"),url("Fonts/1437496/9c8b7e5f-b3ca-435d-a197-b3dfeae277a1.ttf") format("truetype");
+}
+html,body{margin:0px; padding:0px; width:100%;}
+body{width:100%; background:#ffffff; min-width:300px; font-family:'Avenir Next LT W04 Regu1437496',Sans-Serif; font-size:14px; line-height:1.4em; font-weight:normal; font-style:normal;}
+body *{line-height:1.4em;}
+div{position:relative; display:block;}
+p{position:relative; margin:5px 0px; padding:0px;}
+ul,li{position:relative;}
+a img{border:0px;}
+a{position:relative;}
+#big{width:100%; min-height:100%; z-index:-100; opacity:0; transition-duration:0.2s; height:500px; overflow:hidden;}
+#big.act{z-index:auto; opacity:1; height:auto;}
+.cont{width:100%; min-width:300px; max-width:1260px; margin-left:auto; margin-right:auto; height:inherit; z-index:10;}
+#headBar{
+	position:fixed;
+	top:0px;
+	left:0px;
+	display:none;
+	width:100%;
+	height:auto;
+	background:#00ddf1;
+	z-index:20;
+	padding:7px 0px 8px 0px;
+	overflow:hidden;
+}
+	#headBarLogo{
+		width:40px;
+		height:40px;
+		margin:0px auto;
+	}
+		#headBarLogo img{max-width:100%;}
+	#headBarForm{
+		position:absolute;
+		top:6px;
+		right:10px;
+		width:auto;
+		height:auto;
+	}
+		#headBarForm_send_id2{display:none;}
+		.headBarForm_inp{
+			display:inline-block;
+			vertical-align:top;
+			width:284px;
+			overflow:hidden;
+			margin-right:10px;
+		}
+		.headBarForm_inp .headBarForm_inp_inp{left:110%; transition-duration:0.8s; position:relative !important;}
+		.headBarForm_send{display:inline-block; vertical-align:top;}
+#box1{
+	 height:755px;
+	 overflow:hidden;
+	 /*background:url(img/fon-1.png) 50% 100% / 100% 100% no-repeat;*/
+	 background:url(img/BACKGROUND_Circles-min.png) 0px 100% / 100% auto no-repeat, url(img/BACKGROUND1-min.png) 0px 0px / 100% 100% no-repeat;
+}
+#box1LineStart{position:absolute; top:50%; left:0px; height:0px; width:1px; z-index:-1;}
+ 	#txt_welcome{
+		padding:65px 0px 0px 0px;
+		text-align:center;
+		width:100%;
+		height:auto;
+		font-size:55px;
+		color:#ffffff;
+		font-family:'Avenir Next LT W04 Ultra Light',Sans-Serif;
+		transition-duration:0.5s;
+		transition-timing-function:linear;
+		opacity:0;
+		top:10px;
+	}
+	#txt_2{
+		padding:5px 0px 0px 0px;
+		text-align:center;
+		width:100%;
+		height:auto;
+		font-size:21px;
+		color:#C6F5FB;
+		transition-duration:0.5s;
+		transition-timing-function:linear;
+		opacity:0;
+		top:10px;
+	}
+	#txt_welcome.act{opacity:1; top:0px;}
+	#txt_2.act{opacity:1; top:0px;}
+	#phone_bott{
+		position:absolute;
+		bottom:0px;
+		left:0px;
+		width:100%;
+		height:auto;
+	}
+		#phone{
+			width:310px;
+			height:543px;
+			margin:0px auto;
+			background:url(img/phone.png) 0px 0px  no-repeat;
+			background-size:308px auto;
+			opacity:1;
+			background-position:0px 600px;
+			transition-duration:0.6s;
+		}
+		#phone.act{opacity:1; background-position:0px 0px;}
+			#phone_logo, #phone_info{
+				position:absolute;
+				top:77px;
+				left:21px;
+				width:265px;
+				height:468px;
+				background:url(img/logo-bub.png) 50% 50% no-repeat;
+				background-size:141px auto;
+			}
+			#phone_logo{top:177px; left:82px; width:141px; height:141px; opacity:0;}
+			#phone_info{background:none; z-index:15; opacity:0; transition-duration:0.8s; transition-delay:0.8s;}
+			#phone.act #phone_info{opacity:1;}
+			#phone_logo.act{
+				-webkit-animation:cheing_logo;
+				-webkit-animation-duration:1.5s;
+				-webkit-animation-timing-function:linear;
+				-webkit-animation-iteration-count:initial;
+				-webkit-animation-delay:0.3s;
+				-webkit-animation-fill-mode:forwards;
+				animation-name:cheing_logo;
+				animation-duration:1.5s;
+				animation-timing-function:linear;
+				animation-iteration-count:initial;
+				animation-delay:0.3s;
+				animation-fill-mode:forwards;
+				
+			}
+			#phone_info_form{
+				padding:13px 11px 0px 9px;
+			}
+				#phone_info_txt{
+					padding:262px 0px 0px 0px;
+					width:100%;
+					height:auto;
+					text-align:center;
+					font-size:22px;
+					color:#E0E8ED;
+					font-family:'Avenir Next LT W04 Ultra Light',Sans-Serif;
+				}
+			.phone_info_form_inp, .box5FormInp input, .headBarForm_inp_inp{
+				display:block;
+				width:100%;
+				height:29px;
+				box-sizing:border-box;
+				border:1px solid #00ddf1;
+				border-radius:8px;
+				color:#ffffff;
+				font-family:'Avenir Next LT W04 Regu1437496',Sans-Serif;
+				padding:0px 5px 0px 5px;
+				font-size:14px;
+				background:none;
+				text-align:center;
+			}
+			.box5FormInp input, .headBarForm_inp_inp{text-align:left; padding-left:10px; padding-right:10px;}
+			.headBarForm_inp_inp{border-color:#ffffff; height:30px; padding-left:15px;}
+			.phone_info_form_inp::-moz-placeholder,
+			.box5FormInp input::-moz-placeholder,
+			.headBarForm_inp_inp::-moz-placeholder{opacity:1; color:#ffffff;}
+			.phone_info_form_inp::-webkit-input-placeholder,
+			.box5FormInp input::-webkit-input-placeholder,
+			.headBarForm_inp_inp::-webkit-input-placeholder{opacity:1; color:#ffffff;}
+			#phone_info_form_send{
+				padding:15px 0px 0px 0px;
+				text-align:center;
+			}
+				#phone_info_form_send .input_phone_info_form_send,
+				.box5FormInp_send .input_phone_info_form_send,
+				.headBarForm_send input{
+					position:relative;
+					display:inline-block;
+					width:163px;
+					height:30px;
+					background:#00ddf1;
+					border-radius:8px;
+					color:#ffffff;
+					font-family:'Avenir Next LT W04 Regu1437496',Sans-Serif;
+					font-size:15px;
+					text-align:center;
+					cursor:pointer;
+					border:0px;
+					outline:none;
+					-webkit-appearance:none;
+				}
+				body .box5FormInp_send .input_phone_info_form_send{font-size:15px;}
+				.headBarForm_send input{background:none; border:1px solid #ffffff; box-sizing:border-box;}
+			#scrollPg2{
+				position:absolute;
+				bottom:16px;
+				left:0px;
+				width:100%;
+				text-align:center;
+			}
+				#scrollPg2 a{
+					display:inline-block;
+					color:#ffffff;
+					text-decoration:none;
+					font-size:13px;
+					outline:none;
+				}
+				#scrollPg2 a:after, #scrollPg2 a::after{
+					display:block;
+					width:15px;
+					height:9px;
+					margin:6px auto 0px auto;
+					background:url(img/more-str.png) 0px 0px no-repeat;
+					content:" ";
+				}
+#box2{
+	 height:auto;
+	 overflow:hidden;
+	 background:#ffffff;
+}
+.box2LineStart{position:absolute; top:25%; left:0px; height:0px; width:1px; z-index:-1;}
+#box2LineStartBott{top:auto; bottom:25%;}
+ 	#txt_3{
+		padding:78px 0px 0px 0px;
+		text-align:center;
+		font-size:55px;
+		color:#1284B8;
+	}
+	#txt_4{
+		padding:6px 0px 0px 0px;
+		text-align:center;
+		font-size:22px;
+		color:#00567F;
+	}
+	#box2VN1{
+		margin:56px 0px 0px 0px;
+		height:600px;
+	}
+		#box2VN1Moby{
+			padding:0px 0px 0px 0px;
+			margin:0px auto;
+			width:470px;/*470*/
+			height:603px;
+			overflow:hidden;
+			/*background:url(img/phone-2.png) 0px 0px / 274px auto no-repeat;*/
+		}
+			#box2VN1MobySlide{
+				margin:0px 0px 0px 0px;
+				width:470px;
+				height:603px;
+			}
+				.box2VN1MobySlideP{
+					position:absolute;
+					top:0px;
+					left:-100%;
+					width:470px;
+					height:603px;
+					transition:left ease-out 0.7s 0s;
+					background-position:50% 0px;
+					background-size:274px auto;
+					background-repeat:no-repeat;
+				}
+				.box2VN1MobySlideP.act{
+					left:0px;
+				}
+				.box2VN1MobySlideP.actNext{
+					left:100%;
+				}
+		.box2VN1Per{
+			position:absolute;
+			display:block;
+			text-decoration:none;
+			width:430px;
+			height:auto;
+			padding:31px 121px 31px 13px;
+			border:1px solid rgba(51,149,194,0.00);
+			transition-duration:0.3s;
+			box-sizing:border-box;
+			border-radius:8px;
+			box-shadow:0px 0px 0px 1px rgba(204,229,240,0.00);
+			outline:none;
+		}
+		.box2VN1Per.act{border-color:rgba(51,149,194,1); box-shadow:0px 0px 0px 1px rgba(204,229,240,1);}
+			.box2VN1PerTit{
+				font-size:24px;
+				color:#00DDF1;
+				text-align:right;
+				font-weight:600;
+			}
+			.box2VN1PerTxt{
+				font-size:18px;
+				color:#045981;
+				padding:2px 0px 0px 0px;
+				text-align:right;
+				line-height:1.4em;
+			}
+			#box2VN1PerNum3 .box2VN1PerTit, #box2VN1PerNum4 .box2VN1PerTit,
+			#box2VN1PerNum3 .box2VN1PerTxt, #box2VN1PerNum4 .box2VN1PerTxt{text-align:left;}
+			
+		/*#box2VN1PerNum1{padding-left:14px;}*/
+		#box2VN1PerNum1, #box2VN1PerNum2{
+			top:88px;
+			left:9px;
+			background:url(img/ico-num-1.png) right 28px top 39px / 68px auto no-repeat;
+		}
+		#box2VN1PerNum2{
+			top:304px;
+			background:url(img/ico-num-2.png) right 28px top 38px / 71px auto no-repeat;
+		}
+		
+		#box2VN1PerNum3, #box2VN1PerNum4{
+			top:91px;
+			right:3px;
+			padding-right:7px;
+			padding-left:113px;
+			background:url(img/ico-num-3.png) 18px 38px / 71px auto no-repeat;
+		}
+		#box2VN1PerNum4{
+			top:305px;
+			background:url(img/ico-num-4.png) 18px 38px / 71px auto no-repeat;
+		}
+		#box2VN1MobyIMG{
+			margin:28px 0px 0px 22px;
+			overflow:hidden;
+			width:232px;
+			height:414px;
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+			transition-duration:0.4s;
+			background-size:0px 100%;
+		}
+			#box2VN1MobyIMG img{width:0px; height:0px;}
+#box3{
+	 height:auto;
+	 overflow:hidden;
+	 background:#ffffff;
+	 padding-bottom:38px;
+}
+ 	#txt_5{
+		padding:69px 0px 0px 0px;
+		text-align:center;
+		font-size:55px;
+		color:#007BB3;
+	}
+	#box3BX{
+		padding:89px 60px 144px 60px;
+		text-align:justify;
+		font-size:1px;
+		line-height:1px;
+	}
+	#box3BX:after, #box3BX::after{
+		display:inline-block;
+		width:100%;
+		height:1px;
+		font-size:1px;
+		line-height:1px;
+		content:" ";
+	}
+		.box3BXIn{
+			display:inline-block;
+			vertical-align:top;
+			width:33%;
+			height:auto;
+			text-align:center;
+			font-size:16px;
+			line-height:1.4em;
+			max-width:370px;
+			min-width:95px;
+		}
+			.box3BXInImg{
+				width:90px;
+				height:95px;
+				margin:0px auto;
+			}
+			.box3BXInImg img{max-width:100%; top:95px; opacity:0; position:relative;}
+			.box3BXInImg.act img{
+				-webkit-animation-name:cheing_box3BXInImg;
+				-webkit-animation-duration:0.5s;
+				-webkit-animation-timing-function:linear;
+				-webkit-animation-iteration-count:1;
+				-webkit-animation-fill-mode:forwards;
+				animation-name:cheing_box3BXInImg;
+				animation-duration:0.5s;
+				animation-timing-function:linear;
+				animation-iteration-count:1;
+				animation-fill-mode:forwards;
+			}
+			.box3BXInTit{
+				padding:10px 5px 0px 5px;
+				font-size:25px;
+				color:#00DDF1;
+				text-align:center;
+			}
+			.box3BXInTxt{
+				font-size:18px;
+				color:#00567F;
+				padding:18px 5px 0px 5px;
+			}
+#box4{
+	 height:auto;
+	 overflow:hidden;
+	 background:#00ddf1;
+}
+	#txt_6{
+		padding:30px 0px 30px 0px;
+		text-align:center;
+		font-size:44px;
+		color:#ffffff;
+		opacity:0;
+		left:30px;
+		transition:opacity linear 0.7s 0s, left linear 0.9s 0s;
+	}
+		#txt_6 b{font-weight:600;}
+	#txt_6.act{left:0px; opacity:1;}
+#box5{
+	 height:803px;
+	 overflow:hidden;
+	 background:url(img/fon-5.png) 50% 100% / 100% 100% no-repeat;
+}
+#box5LineStart{position:absolute; top:50%; left:0px; height:0px; width:1px; z-index:-1;}
+	#box5Phone{
+		position:absolute;
+		top:43px;
+		right:0px;
+		width:701px;
+		height:825px;
+		background:url(img/fon-5-phone.png) 300px 53px / 660px auto no-repeat;
+		z-index:5;
+		transition-duration:2.2s;
+		transition-timing-function:ease;
+		opacity:0;
+	}
+	#box5Phone.act{background-position:171px 53px; opacity:1;}
+	#box5Txt{
+		width:100%;
+		max-width:550px;
+		height:auto;
+		padding:264px 0px 0px 73px;
+	}
+		#box5TxtTit{
+			padding:30px 0px 0px 0px;
+			text-align:left;
+			font-size:55px;
+			color:#CAF9FF;
+		}
+		#box5TxtTxt{
+			padding:3px 0px 0px 0px;
+			text-align:left;
+			font-size:20px;
+			color:#CAF9FF;
+			line-height:1.5em;
+		}
+		#box5Form{
+			padding:19px 0px 0px 0px;
+			width:100%;
+		}
+			.box5FormInp{
+				padding:5px 0px 0px 0px;
+			}
+			.box5FormInp_send{
+				padding:20px 0px 0px 0px;
+			}
+			#box5Form .box5FormInp{
+				padding:0px 0px 0px 0px;
+			}
+			#box5Form .box5FormInp .phone_info_form_inp{height:39px;}
+		#copy{
+			position:absolute;
+			bottom:29px;
+			left:73px;
+			font-size:21px;
+			color:#354D54;
+			z-index:16;
+		}
+		#socIco{
+			position:absolute;
+			bottom:20px;
+			left:0px;
+			font-size:1px;
+			line-height:1px;
+			width:100%;
+			text-align:center;
+		}
+			.socIcoIn{
+				display:inline-block;
+				width:48px;
+				height:48px;
+				padding-right:10px;
+				padding-left:10px;
+				vertical-align:bottom;
+				z-index:17;
+			}
+				.socIcoIn img{max-width:100%;}
+#box6{
+	 height:86px;
+	 overflow:hidden;
+	 background:#ffffff;
+}
+
+#mc_embed_signup1, #mc_embed_signup1 *{position:static;}
+
+
+/***********************animation-function**********************************/
+@keyframes cheing_box3BXInImg {
+	from{top:45px; opacity:0;}
+	50%{opacity:0.25;}
+	to{top:0px; opacity:1;}
+}
+@keyframes cheing_logo {
+	from{opacity:0;}
+	/*10%{background-size:30px 30px; transform:rotate(0deg);}
+	30%{background-size:90px 90px; transform:rotate(360deg);}
+	50%{background-size:20px 20px; transform:rotate(180deg);}*/
+	to{opacity:1;}
+}
+@-webkit-keyframes cheing_box3BXInImg {
+	from{top:45px; opacity:0;}
+	50%{opacity:0.25;}
+	to{top:0px; opacity:1;}
+}
+@-webkit-keyframes cheing_logo {
+	from{opacity:0;}
+	/*10%{background-size:30px 30px; transform:rotate(0deg);}
+	30%{background-size:90px 90px; transform:rotate(360deg);}
+	50%{background-size:20px 20px; transform:rotate(180deg);}*/
+	to{opacity:1;}
+}
+/***********************end-animation-function**********************************/
